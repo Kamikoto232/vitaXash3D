@@ -1,6 +1,6 @@
-﻿float4 main(
+﻿fixed4 main(
 	float2 vTexCoord : TEXCOORD0,
-	uniform float4 uColor,
+	uniform fixed4 uColor,
 	uniform sampler2D uTex : TEXUNIT0
 	)
 {	

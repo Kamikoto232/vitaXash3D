@@ -1,0 +1,87 @@
+=== THREADS ===
+    XASH00001
+        ID: 0x40010003
+        Stop reason: 0x0 (No reason)
+        Status: 0x8 (Waiting)
+        PC: 0xe00088b4 (SceLibKernel@1 + 0x66c4)
+    SceCommonDialogWorker
+        ID: 0x400100c3
+        Stop reason: 0x0 (No reason)
+        Status: 0x8 (Waiting)
+        PC: 0xe00084f4 (SceLibKernel@1 + 0x6304)
+    Xash
+        ID: 0x40010101
+        Stop reason: 0x30004 (Data abort exception)
+        Status: 0x1 (Running)
+        PC: 0xe0085d48 (SceGxm@1 + 0x1c4f8)
+    XashSnd
+        ID: 0x4005012f
+        Stop reason: 0x0 (No reason)
+        Status: 0x8 (Waiting)
+        PC: 0x8112e0e8 (xash.elf@1 + 0x1090e8 => sceAudioOutOpenPort at ??:?)
+    SceGxmDisplayQueue
+        ID: 0x4001019f
+        Stop reason: 0x0 (No reason)
+        Status: 0x8 (Waiting)
+        PC: 0xe0008904 (SceLibKernel@1 + 0x6714)
+
+=== THREAD "Xash" <0x40010101> CRASHED (Data abort exception) ===
+REGISTERS:
+    R0: 0x3a307875
+    R1: 0x3a307875
+    R2: 0x0
+    R3: 0x10
+    R4: 0x10
+    R5: 0x83583418
+    R6: 0x8366426c
+    R7: 0x1
+    R8: 0x83583230
+    R9: 0x1
+    R10: 0x8bb8638c
+    R11: 0x83583408
+    R12: 0x4
+    SP: 0x8ba00870
+    PC: 0xe0085d48 (SceGxm@1 + 0x1c4f8)
+    LR: 0x1
+
+STACK CONTENTS AROUND SP:
+          0x8ba00830: 0x0
+          0x8ba00834: 0x812070e0 (xash.elf@2 + 0x70e0)
+          0x8ba00838: 0x81139848 (xash.elf@1 + 0x114848 => .LC107 at :?)
+          0x8ba0083c: 0x839e3228
+          0x8ba00840: 0x0
+          0x8ba00844: 0x8113b804 (xash.elf@1 + 0x116804 => .LC127 at :?)
+          0x8ba00848: 0x8114588c (xash.elf@1 + 0x12088c => .LC16 at :?)
+          0x8ba0084c: 0x81065d5b (xash.elf@1 + 0x40d5b => _Mem_Free at /home/user/PSV/vitaXash3D/engine/common/zone.c:255)
+          0x8ba00850: 0x0
+          0x8ba00854: 0x81132e30 (xash.elf@1 + 0x10de30 => .LC83 at :?)
+          0x8ba00858: 0x0
+          0x8ba0085c: 0x810665cd (xash.elf@1 + 0x415cd => getbits_fast at /home/user/PSV/vitaXash3D/engine/common/soundlib/libmpg/common.c:160)
+          0x8ba00860: 0x8114588c (xash.elf@1 + 0x12088c => .LC16 at :?)
+          0x8ba00864: 0x38390032
+          0x8ba00868: 0x35333238
+          0x8ba0086c: 0x35353220
+    SP => 0x8ba00870: 0x8114592b (xash.elf@1 + 0x12092b => .LC24 at :?)
+          0x8ba00874: 0x35353220
+          0x8ba00878: 0x35353220
+          0x8ba0087c: 0x83003020 (xash.elf@2 + 0x1e03020)
+          0x8ba00880: 0x8114591c (xash.elf@1 + 0x12091c => .LC23 at :?)
+          0x8ba00884: 0x836642f8 (xash.elf@2 + 0x24642f8)
+          0x8ba00888: 0x81203354 (xash.elf@2 + 0x3354)
+          0x8ba0088c: 0x8366426c (xash.elf@2 + 0x246426c)
+          0x8ba00890: 0x1
+          0x8ba00894: 0x83583230 (xash.elf@2 + 0x2383230)
+          0x8ba00898: 0x1
+          0x8ba0089c: 0x8bb8638c (menu@2 + 0x8638c)
+          0x8ba008a0: 0xff
+          0x8ba008a4: 0x81113151 (xash.elf@1 + 0xee151 => _vglDrawObjects_CustomShadersIMPL at /home/user/PSV/vitaGL/source/custom_shaders.c:127)
+          0x8ba008a8: 0x83583408 (xash.elf@2 + 0x2383408)
+          0x8ba008ac: 0x8103b825 (xash.elf@1 + 0x16825 => Cmd_CheckMapsList_R at /home/user/PSV/vitaXash3D/engine/common/con_utils.c:1115)
+          0x8ba008b0: 0x3a307875
+          0x8ba008b4: 0x7461642f
+          0x8ba008b8: 0x61782f61
+          0x8ba008bc: 0x4
+          0x8ba008c0: 0x4
+          0x8ba008c4: 0x10000000
+          0x8ba008c8: 0x2
+          0x8ba008cc: 0x0

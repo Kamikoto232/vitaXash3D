@@ -1,0 +1,208 @@
+================================================================================
+	Xash3D FWGS (build 2115, PSVita-arm) started at Jan14 2021 [04:01.36]
+================================================================================
+[2021:01:14|04:01:36] Console initialized
+[2021:01:14|04:01:36] FREE MEMORY REPORT:
+[2021:01:14|04:01:36] --------------------
+[2021:01:14|04:01:36] USER_RW:  195584k
+[2021:01:14|04:01:36] CDRAM_RW: 114688k
+[2021:01:14|04:01:36] PHYCONT:  26624k
+[2021:01:14|04:01:36] --------------------
+[2021:01:14|04:01:36] FS_AddGameDirectory( ./, 0 )
+[2021:01:14|04:01:36] FS_Init: done
+[2021:01:14|04:01:36] FS_LoadGameInfo( valve )
+[2021:01:14|04:01:36] FS_Rescan( Half-Life )
+[2021:01:14|04:01:36] FS_AddGameDirectory( valve/downloaded/, 10 )
+[2021:01:14|04:01:36] FS_AddGameDirectory( valve/, 4 )
+[2021:01:14|04:01:36] Adding packfile: valve/extras.pak (139 files)
+[2021:01:14|04:01:36] Adding wadfile valve/cached.wad (2 files)
+[2021:01:14|04:01:36] Adding wadfile valve/decals.wad (222 files)
+[2021:01:14|04:01:36] Adding wadfile valve/fonts.wad (3 files)
+[2021:01:14|04:01:36] Adding wadfile valve/gfx.wad (7 files)
+[2021:01:14|04:01:36] Adding wadfile valve/halflife.wad (3116 files)
+[2021:01:14|04:01:36] Adding wadfile valve/liquids.wad (32 files)
+[2021:01:14|04:01:37] Adding wadfile valve/spraypaint.wad (14 files)
+[2021:01:14|04:01:37] Adding wadfile valve/tempdecal.wad (1 files)
+[2021:01:14|04:01:37] Adding wadfile valve/xeno.wad (264 files)
+[2021:01:14|04:01:37] FS_AddGameDirectory( valve/custom/, 10 )
+[2021:01:14|04:01:37] InitDecals: 222 decals
+[2021:01:14|04:01:37] NET_Init()
+[2021:01:14|04:01:38] Netchan_Init()
+[2021:01:14|04:01:38] SV_Init()
+[2021:01:14|04:01:38] Console initialized.
+[2021:01:14|04:01:38] execing video.cfg
+[2021:01:14|04:01:38] execing opengl.cfg
+[2021:01:14|04:01:38] VID_StartupGamma: software gamma initialized
+[2021:01:14|04:01:38] R_Init_OpenGL()
+[2021:01:14|04:01:38] Set: [960x544]
+[2021:01:14|04:01:41] Video: SGX543MP4+
+[2021:01:14|04:01:41] GL_UploadTexture: uploading *default [16 x 16] orig [16 x 16] free gpumem before 284813016
+[2021:01:14|04:01:41] GL_Upload: *white s&3 [1 x 1]
+[2021:01:14|04:01:41] GL_UploadTexture: uploading *white [1 x 1] orig [1 x 1] free gpumem before 284811544
+[2021:01:14|04:01:41] GL_Upload: *gray s&3 [1 x 1]
+[2021:01:14|04:01:41] GL_UploadTexture: uploading *gray [1 x 1] orig [1 x 1] free gpumem before 284811512
+[2021:01:14|04:01:41] GL_Upload: *black s&3 [1 x 1]
+[2021:01:14|04:01:41] GL_UploadTexture: uploading *black [1 x 1] orig [1 x 1] free gpumem before 284811480
+[2021:01:14|04:01:41] GL_UploadTexture: uploading *particle [16 x 16] orig [16 x 16] free gpumem before 284811448
+[2021:01:14|04:01:41] GL_UploadTexture: uploading *oldparticle [8 x 8] orig [8 x 8] free gpumem before 284810424
+[2021:01:14|04:01:41] GL_UploadTexture: uploading *particle2 [8 x 8] orig [8 x 8] free gpumem before 284810168
+[2021:01:14|04:01:41] GL_UploadTexture: uploading *cintexture [256 x 256] orig [256 x 256] free gpumem before 284809912
+[2021:01:14|04:01:41] GL_UploadTexture: uploading *dlight [128 x 128] orig [128 x 128] free gpumem before 284547768
+[2021:01:14|04:01:41] GL_UploadTexture: uploading *dlight2 [1024 x 1024] orig [1024 x 1024] free gpumem before 284482232
+[2021:01:14|04:01:41] GL_UploadTexture: uploading *atten [256 x 1] orig [256 x 1] free gpumem before 280287928
+[2021:01:14|04:01:41] GL_UploadTexture: uploading *atten2 [256 x 1] orig [256 x 1] free gpumem before 280286904
+[2021:01:14|04:01:41] GL_UploadTexture: uploading *atten3 [256 x 1] orig [256 x 1] free gpumem before 280285880
+[2021:01:14|04:01:41] GL_UploadTexture: uploading *attnno [256 x 1] orig [256 x 1] free gpumem before 280284856
+[2021:01:14|04:01:42] GL_UploadTexture: uploading *blankbump [16 x 16] orig [16 x 16] free gpumem before 280283832
+[2021:01:14|04:01:42] GL_UploadTexture: uploading *blankdeluxe [16 x 16] orig [16 x 16] free gpumem before 280282360
+[2021:01:14|04:01:42] GL_UploadTexture: uploading *sky [16 x 16] orig [16 x 16] free gpumem before 280280888
+[2021:01:14|04:01:42] GL_UploadTexture: uploading *alphaContrast [64 x 64] orig [64 x 64] free gpumem before 280279416
+[2021:01:14|04:01:42] GL_Upload: *vsdct s&3 [1 x 1]
+[2021:01:14|04:01:42] GL_UploadTexture: uploading *vsdct [1 x 1] orig [1 x 1] free gpumem before 280257464
+[2021:01:14|04:01:42] ^3Warning:^7 GL_UploadTexture: cubemaps isn't supported, *vsdct ignored
+[2021:01:14|04:01:42] SCR_Init()
+[2021:01:14|04:01:48] GL_UploadTexture: uploading creditsfont_cp1251.fnt [256 x 256] orig [256 x 256] free gpumem before 280257432
+[2021:01:14|04:01:48] GL_UploadTexture: uploading gfx.wad/paused.lmp [64 x 64] orig [64 x 64] free gpumem before 279995288
+[2021:01:14|04:01:48] GL_UploadTexture: uploading gfx.wad/lambda.lmp [128 x 128] orig [128 x 128] free gpumem before 279978904
+[2021:01:14|04:01:48] GL_UploadTexture: uploading gfx.wad/backtile.lmp [64 x 64] orig [64 x 64] free gpumem before 279913368
+[2021:01:14|04:01:48] GL_UploadTexture: uploading #HUD/sprites/shellchrome.spr_one_00.spr [64 x 64] orig [64 x 64] free gpumem before 279896984
+[2021:01:14|04:01:48] AVI: Not supported
+[2021:01:14|04:01:49] GL_UploadTexture: uploading #XASH_SYSTEMFONT_001.bmp [256 x 256] orig [256 x 256] free gpumem before 279875032
+[2021:01:14|04:01:49] GL_UploadTexture: uploading resource/background/800_1_a_loading.tga [256 x 256] orig [256 x 256] free gpumem before 279612888
+[2021:01:14|04:01:49] GL_UploadTexture: uploading resource/background/800_1_b_loading.tga [256 x 256] orig [256 x 256] free gpumem before 279350744
+[2021:01:14|04:01:49] GL_UploadTexture: uploading resource/background/800_1_c_loading.tga [256 x 256] orig [256 x 256] free gpumem before 279088600
+[2021:01:14|04:01:49] GL_UploadTexture: uploading resource/background/800_1_d_loading.tga [32 x 256] orig [32 x 256] free gpumem before 278826456
+[2021:01:14|04:01:49] GL_UploadTexture: uploading resource/background/800_2_a_loading.tga [256 x 256] orig [256 x 256] free gpumem before 278793688
+[2021:01:14|04:01:49] GL_UploadTexture: uploading resource/background/800_2_b_loading.tga [256 x 256] orig [256 x 256] free gpumem before 278531544
+[2021:01:14|04:01:49] GL_UploadTexture: uploading resource/background/800_2_c_loading.tga [256 x 256] orig [256 x 256] free gpumem before 278269400
+[2021:01:14|04:01:49] GL_UploadTexture: uploading resource/background/800_2_d_loading.tga [32 x 256] orig [32 x 256] free gpumem before 278007256
+[2021:01:14|04:01:49] GL_UploadTexture: uploading resource/background/800_3_a_loading.tga [256 x 128] orig [256 x 88] free gpumem before 277974488
+[2021:01:14|04:01:49] GL_UploadTexture: uploading resource/background/800_3_b_loading.tga [256 x 128] orig [256 x 88] free gpumem before 277843416
+[2021:01:14|04:01:49] GL_UploadTexture: uploading resource/background/800_3_c_loading.tga [256 x 128] orig [256 x 88] free gpumem before 277712344
+[2021:01:14|04:01:49] GL_UploadTexture: uploading resource/background/800_3_d_loading.tga [32 x 128] orig [32 x 88] free gpumem before 277581272
+[2021:01:14|04:01:49] GL_UploadTexture: uploading #btns_0.bmp [256 x 128] orig [156 x 78] free gpumem before 277564888
+[2021:01:14|04:01:49] GL_UploadTexture: uploading #btns_1.bmp [256 x 128] orig [156 x 78] free gpumem before 277433816
+[2021:01:14|04:01:49] GL_UploadTexture: uploading #btns_2.bmp [256 x 128] orig [156 x 78] free gpumem before 277302744
+[2021:01:14|04:01:49] GL_UploadTexture: uploading #btns_3.bmp [256 x 128] orig [156 x 78] free gpumem before 277171672
+[2021:01:14|04:01:49] GL_UploadTexture: uploading #btns_4.bmp [256 x 128] orig [156 x 78] free gpumem before 277040600
+[2021:01:14|04:01:49] GL_UploadTexture: uploading #btns_5.bmp [256 x 128] orig [156 x 78] free gpumem before 276909528
+[2021:01:14|04:01:49] GL_UploadTexture: uploading #btns_6.bmp [256 x 128] orig [156 x 78] free gpumem before 276778456
+[2021:01:14|04:01:49] GL_UploadTexture: uploading #btns_7.bmp [256 x 128] orig [156 x 78] free gpumem before 276647384
+[2021:01:14|04:01:49] GL_UploadTexture: uploading #btns_8.bmp [256 x 128] orig [156 x 78] free gpumem before 276516312
+[2021:01:14|04:01:49] GL_UploadTexture: uploading #btns_9.bmp [256 x 128] orig [156 x 78] free gpumem before 276385240
+[2021:01:14|04:01:49] GL_UploadTexture: uploading #btns_10.bmp [256 x 128] orig [156 x 78] free gpumem before 276254168
+[2021:01:14|04:01:49] GL_UploadTexture: uploading #btns_11.bmp [256 x 128] orig [156 x 78] free gpumem before 276123096
+[2021:01:14|04:01:49] GL_UploadTexture: uploading #btns_12.bmp [256 x 128] orig [156 x 78] free gpumem before 275992024
+[2021:01:14|04:01:49] GL_UploadTexture: uploading #btns_13.bmp [256 x 128] orig [156 x 78] free gpumem before 275860952
+[2021:01:14|04:01:49] GL_UploadTexture: uploading #btns_14.bmp [256 x 128] orig [156 x 78] free gpumem before 275729880
+[2021:01:14|04:01:49] GL_UploadTexture: uploading #btns_15.bmp [256 x 128] orig [156 x 78] free gpumem before 275598808
+[2021:01:14|04:01:50] GL_UploadTexture: uploading #btns_16.bmp [256 x 128] orig [156 x 78] free gpumem before 275467736
+[2021:01:14|04:01:50] GL_UploadTexture: uploading #btns_17.bmp [256 x 128] orig [156 x 78] free gpumem before 275336664
+[2021:01:14|04:01:50] GL_UploadTexture: uploading #btns_18.bmp [256 x 128] orig [156 x 78] free gpumem before 275205592
+[2021:01:14|04:01:50] GL_UploadTexture: uploading #btns_19.bmp [256 x 128] orig [156 x 78] free gpumem before 275074520
+[2021:01:14|04:01:50] GL_UploadTexture: uploading #btns_20.bmp [256 x 128] orig [156 x 78] free gpumem before 274943448
+[2021:01:14|04:01:50] GL_UploadTexture: uploading #btns_21.bmp [256 x 128] orig [156 x 78] free gpumem before 274812376
+[2021:01:14|04:01:50] GL_UploadTexture: uploading #btns_22.bmp [256 x 128] orig [156 x 78] free gpumem before 274681304
+[2021:01:14|04:01:50] GL_UploadTexture: uploading #btns_23.bmp [256 x 128] orig [156 x 78] free gpumem before 274550232
+[2021:01:14|04:01:50] GL_UploadTexture: uploading #btns_24.bmp [256 x 128] orig [156 x 78] free gpumem before 274419160
+[2021:01:14|04:01:50] GL_UploadTexture: uploading #btns_25.bmp [256 x 128] orig [156 x 78] free gpumem before 274288088
+[2021:01:14|04:01:50] GL_UploadTexture: uploading #btns_26.bmp [256 x 128] orig [156 x 78] free gpumem before 274157016
+[2021:01:14|04:01:50] GL_UploadTexture: uploading #btns_27.bmp [256 x 128] orig [156 x 78] free gpumem before 274025944
+[2021:01:14|04:01:50] GL_UploadTexture: uploading #btns_28.bmp [256 x 128] orig [156 x 78] free gpumem before 273894872
+[2021:01:14|04:01:50] GL_UploadTexture: uploading #btns_29.bmp [256 x 128] orig [156 x 78] free gpumem before 273763800
+[2021:01:14|04:01:50] GL_UploadTexture: uploading #btns_30.bmp [256 x 128] orig [156 x 78] free gpumem before 273632728
+[2021:01:14|04:01:50] GL_UploadTexture: uploading #btns_31.bmp [256 x 128] orig [156 x 78] free gpumem before 273501656
+[2021:01:14|04:01:50] GL_UploadTexture: uploading #btns_32.bmp [256 x 128] orig [156 x 78] free gpumem before 273370584
+[2021:01:14|04:01:50] GL_UploadTexture: uploading #btns_33.bmp [256 x 128] orig [156 x 78] free gpumem before 273239512
+[2021:01:14|04:01:50] GL_UploadTexture: uploading #btns_34.bmp [256 x 128] orig [156 x 78] free gpumem before 273108440
+[2021:01:14|04:01:50] GL_UploadTexture: uploading #btns_35.bmp [256 x 128] orig [156 x 78] free gpumem before 272977368
+[2021:01:14|04:01:50] GL_UploadTexture: uploading #btns_36.bmp [256 x 128] orig [156 x 78] free gpumem before 272846296
+[2021:01:14|04:01:50] GL_UploadTexture: uploading #btns_37.bmp [256 x 128] orig [156 x 78] free gpumem before 272715224
+[2021:01:14|04:01:50] GL_UploadTexture: uploading #btns_38.bmp [256 x 128] orig [156 x 78] free gpumem before 272584152
+[2021:01:14|04:01:50] GL_UploadTexture: uploading #btns_39.bmp [256 x 128] orig [156 x 78] free gpumem before 272453080
+[2021:01:14|04:01:50] GL_UploadTexture: uploading #btns_40.bmp [256 x 128] orig [156 x 78] free gpumem before 272322008
+[2021:01:14|04:01:50] GL_UploadTexture: uploading #btns_41.bmp [256 x 128] orig [156 x 78] free gpumem before 272190936
+[2021:01:14|04:01:50] GL_UploadTexture: uploading #btns_42.bmp [256 x 128] orig [156 x 78] free gpumem before 272059864
+[2021:01:14|04:01:50] GL_UploadTexture: uploading #btns_43.bmp [256 x 128] orig [156 x 78] free gpumem before 271928792
+[2021:01:14|04:01:50] GL_UploadTexture: uploading #btns_44.bmp [256 x 128] orig [156 x 78] free gpumem before 271797720
+[2021:01:14|04:01:50] GL_UploadTexture: uploading #btns_45.bmp [256 x 128] orig [156 x 78] free gpumem before 271666648
+[2021:01:14|04:01:50] GL_UploadTexture: uploading #btns_46.bmp [256 x 128] orig [156 x 78] free gpumem before 271535576
+[2021:01:14|04:01:50] GL_UploadTexture: uploading #btns_47.bmp [256 x 128] orig [156 x 78] free gpumem before 271404504
+[2021:01:14|04:01:50] GL_UploadTexture: uploading #btns_48.bmp [256 x 128] orig [156 x 78] free gpumem before 271273432
+[2021:01:14|04:01:50] GL_UploadTexture: uploading #btns_49.bmp [256 x 128] orig [156 x 78] free gpumem before 271142360
+[2021:01:14|04:01:50] GL_UploadTexture: uploading #btns_50.bmp [256 x 128] orig [156 x 78] free gpumem before 271011288
+[2021:01:14|04:01:50] GL_UploadTexture: uploading #btns_51.bmp [256 x 128] orig [156 x 78] free gpumem before 270880216
+[2021:01:14|04:01:50] GL_UploadTexture: uploading #btns_52.bmp [256 x 128] orig [156 x 78] free gpumem before 270749144
+[2021:01:14|04:01:50] GL_UploadTexture: uploading #btns_53.bmp [256 x 128] orig [156 x 78] free gpumem before 270618072
+[2021:01:14|04:01:50] GL_UploadTexture: uploading #btns_54.bmp [256 x 128] orig [156 x 78] free gpumem before 270487000
+[2021:01:14|04:01:50] GL_UploadTexture: uploading #btns_55.bmp [256 x 128] orig [156 x 78] free gpumem before 270355928
+[2021:01:14|04:01:50] GL_UploadTexture: uploading #btns_56.bmp [256 x 128] orig [156 x 78] free gpumem before 270224856
+[2021:01:14|04:01:51] GL_UploadTexture: uploading #btns_57.bmp [256 x 128] orig [156 x 78] free gpumem before 270093784
+[2021:01:14|04:01:51] GL_UploadTexture: uploading #btns_58.bmp [256 x 128] orig [156 x 78] free gpumem before 269962712
+[2021:01:14|04:01:51] GL_UploadTexture: uploading #btns_59.bmp [256 x 128] orig [156 x 78] free gpumem before 269831640
+[2021:01:14|04:01:51] GL_UploadTexture: uploading #btns_60.bmp [256 x 128] orig [156 x 78] free gpumem before 269700568
+[2021:01:14|04:01:51] GL_UploadTexture: uploading #btns_61.bmp [256 x 128] orig [156 x 78] free gpumem before 269569496
+[2021:01:14|04:01:51] GL_UploadTexture: uploading #btns_62.bmp [256 x 128] orig [156 x 78] free gpumem before 269438424
+[2021:01:14|04:01:51] GL_UploadTexture: uploading #btns_63.bmp [256 x 128] orig [156 x 78] free gpumem before 269307352
+[2021:01:14|04:01:51] GL_UploadTexture: uploading #btns_64.bmp [256 x 128] orig [156 x 78] free gpumem before 269176280
+[2021:01:14|04:01:51] GL_UploadTexture: uploading #btns_65.bmp [256 x 128] orig [156 x 78] free gpumem before 269045208
+[2021:01:14|04:01:51] GL_UploadTexture: uploading #btns_66.bmp [256 x 128] orig [156 x 78] free gpumem before 268914136
+[2021:01:14|04:01:51] GL_UploadTexture: uploading #btns_67.bmp [256 x 128] orig [156 x 78] free gpumem before 268783064
+[2021:01:14|04:01:51] GL_UploadTexture: uploading #btns_68.bmp [256 x 128] orig [156 x 78] free gpumem before 268651992
+[2021:01:14|04:01:51] GL_UploadTexture: uploading #btns_69.bmp [256 x 128] orig [156 x 78] free gpumem before 268520920
+[2021:01:14|04:01:51] GL_UploadTexture: uploading #btns_70.bmp [256 x 128] orig [156 x 78] free gpumem before 268389848
+[2021:01:14|04:01:51] GL_UploadTexture: uploading cached/conback [512 x 256] orig [320 x 200] free gpumem before 268258776
+[2021:01:14|04:01:51] GL_UploadTexture: uploading font0_cp1251.fnt [256 x 128] orig [256 x 128] free gpumem before 267734488
+[2021:01:14|04:01:51] GL_UploadTexture: uploading font1_cp1251.fnt [256 x 128] orig [256 x 128] free gpumem before 267603416
+[2021:01:14|04:01:51] GL_UploadTexture: uploading font2_cp1251.fnt [256 x 256] orig [256 x 256] free gpumem before 267472344
+[2021:01:14|04:01:51] GL_Upload: gfx/shell/splash s&3 [1 x 1]
+[2021:01:14|04:01:51] GL_UploadTexture: uploading gfx/shell/splash [1 x 1] orig [1 x 1] free gpumem before 267210200
+[2021:01:14|04:01:51] GL_Upload: gfx/shell/min_n s&3 [19 x 19]
+[2021:01:14|04:01:51] GL_UploadTexture: uploading gfx/shell/min_n [32 x 32] orig [19 x 19] free gpumem before 267210168
+[2021:01:14|04:01:51] GL_Upload: gfx/shell/min_f s&3 [19 x 19]
+[2021:01:14|04:01:51] GL_UploadTexture: uploading gfx/shell/min_f [32 x 32] orig [19 x 19] free gpumem before 267206072
+[2021:01:14|04:01:51] GL_Upload: gfx/shell/min_d s&3 [19 x 19]
+[2021:01:14|04:01:51] GL_UploadTexture: uploading gfx/shell/min_d [32 x 32] orig [19 x 19] free gpumem before 267201976
+[2021:01:14|04:01:52] GL_Upload: gfx/shell/cls_n s&3 [19 x 19]
+[2021:01:14|04:01:52] GL_UploadTexture: uploading gfx/shell/cls_n [32 x 32] orig [19 x 19] free gpumem before 267197880
+[2021:01:14|04:01:52] GL_Upload: gfx/shell/cls_f s&3 [19 x 19]
+[2021:01:14|04:01:52] GL_UploadTexture: uploading gfx/shell/cls_f [32 x 32] orig [19 x 19] free gpumem before 267193784
+[2021:01:14|04:01:52] GL_Upload: gfx/shell/cls_d s&3 [19 x 19]
+[2021:01:14|04:01:52] GL_UploadTexture: uploading gfx/shell/cls_d [32 x 32] orig [19 x 19] free gpumem before 267189688
+[2021:01:14|04:01:52] snd_vita: Sound initialized.
+[2021:01:14|04:01:52] IN_TouchInit()
+[2021:01:14|04:01:52] CL_LoadProgs: failed to get address of HUD_ChatInputPosition proc
+[2021:01:14|04:01:52] CL_LoadProgs: failed to get address of HUD_GetRenderInterface proc
+[2021:01:14|04:01:52] CL_LoadProgs: failed to get address of HUD_GetPlayerTeam proc
+[2021:01:14|04:01:52] CL_LoadProgs: failed to get address of HUD_ClipMoveToEntity proc
+[2021:01:14|04:01:52] CL_LoadProgs: failed to get address of IN_ClientTouchEvent proc
+[2021:01:14|04:01:52] TextMessage: parsed 143 text messages
+[2021:01:14|04:01:52] CL: hull0, player_mins: -16 -16 -36, player_maxs: 16 16 36
+[2021:01:14|04:01:52] CL: hull1, player_mins: -16 -16 -18, player_maxs: 16 16 18
+[2021:01:14|04:01:52] CL: hull2, player_mins: 0 0 0, player_maxs: 0 0 0
+[2021:01:14|04:01:52] Mobility interface not found
+[04:01:52]  InitStudioAPI [2021:01:14|04:01:53] - ok
+[2021:01:14|04:01:53] CL_Init()
+[2021:01:14|04:01:53] Reading config script file settings.scr
+[2021:01:14|04:01:53] Reading config script file user.scr
+[2021:01:14|04:01:53] execing config.cfg
+[2021:01:14|04:01:53] execing keyboard.cfg
+[2021:01:14|04:01:53] couldn't exec userconfig.cfg
+[2021:01:14|04:01:53] execing valve.rc
+[2021:01:14|04:01:53] execing language.cfg
+[2021:01:14|04:01:53] couldn't exec joystick.cfg
+[2021:01:14|04:01:53] execing autoexec.cfg
+[2021:01:14|04:01:53] execing violence.cfg
+[2021:01:14|04:01:53] execing config.cfg
+[2021:01:14|04:01:53] execing keyboard.cfg
+[2021:01:14|04:01:53] couldn't exec userconfig.cfg
+[2021:01:14|04:01:53] execing game.cfg
+[2021:01:14|04:01:53] gamedir is write protected.
+[2021:01:14|04:01:53] GL_UploadTexture: uploading touch_default/edit_close.tga [128 x 128] orig [92 x 92] free gpumem before 267185592
+[2021:01:14|04:01:53] GL_UploadTexture: uploading touch_default/edit_hide.tga [128 x 128] orig [92 x 92] free gpumem before 267098104
+[2021:01:14|04:01:53] GL_UploadTexture: uploading touch_default/edit_show.tga [128 x 128] orig [92 x 92] free gpumem before 267010616
+[2021:01:14|04:01:53] GL_UploadTexture: uploading touch_default/edit_reset.tga [128 x 128] orig [92 x 92] free gpumem before 266923128
+[2021:01:14|04:01:53] GL_UploadTexture: uploading touch_default/joy.tga [128 x 128] orig [83 x 84] free gpumem before 266835640
+[2021:01:14|04:01:53] execing touch.cfg
+[2021:01:14|04:01:54] GL_UploadTexture: uploading gfx.wad/lambda.lmp [128 x 128] orig [128 x 128] free gpumem before 266813688
+[2021:01:14|04:01:54] GL_UpdateSwapInterval: 0

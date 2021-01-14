@@ -1,10 +1,10 @@
-﻿float4 main(
+﻿fixed4 main(
 	float2 vTexCoord : TEXCOORD0,
-	uniform float4 uColor,
+	uniform fixed4 uColor,
 	uniform sampler2D uTex : TEXUNIT0
 	)
 {	
-	float4 c = tex2D(uTex, vTexCoord) * uColor;
+	fixed4 c = tex2D(uTex, vTexCoord) * uColor;
 	if (c.a >= 0.5) return c;
 	else discard;
 }
